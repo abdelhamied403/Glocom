@@ -19,6 +19,6 @@ export default {
       <h1 class="text-center text-3xl mb-4 capitalize font-bold">tool box</h1>
       <div id="dock"></div>
     </div>
-    <div id="rete" class="node-editor flex-1"></div>
+    <div id="rete" class="node-editor flex-1 h-full"></div>
   </div>
 </template>
