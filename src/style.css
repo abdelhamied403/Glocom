@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#dock .item {
+  margin: 20px 0;
+}
+
+.node {
+  border-radius: 5px !important;
+  border: 2px solid #3090df !important;
+  background-color: white !important;
+}
+.node * {
+  color: black !important;
+}
+.node .title {
+  border-bottom: 2px solid #3090df;
+}
+.node .socket {
+  background: white !important;
+  border: 2px solid #3090df !important;
+
+  border-radius: 5px !important;
+}
+
+.node input {
+  border: 1px solid rgb(206, 206, 206) !important;
+}
